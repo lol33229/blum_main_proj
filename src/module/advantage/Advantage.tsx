@@ -30,7 +30,7 @@ export default function Advantage({}: Props) {
     ]
 
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10' id="3">
         <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>ПРЕИМУЩЕСТВА</h1>
         <div className="mt-10">
             <div className="w-full flex justify-between flex-wrap">

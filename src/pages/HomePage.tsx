@@ -4,6 +4,9 @@ import About from "../module/about/About"
 import Quotation from "../module/quotation/Quotation"
 import Advantage from "../module/advantage/Advantage"
 import We from "../module/we/We"
+import Form from "../module/form/Form"
+import New from "../module/new/New"
+import Footer from "../module/footer/Footer"
 
 type Props = {}
 
@@ -16,6 +19,9 @@ export default function HomePage({}: Props) {
       <Quotation />
       <Advantage />
       <We />
+      <Form />
+      <New />
+      <Footer />
     </div>
   )
 }

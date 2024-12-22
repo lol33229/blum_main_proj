@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.gg:after {
+    top: -10px;
+    right: -65px;
+    content: '';
+    position: absolute;
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background-color: #7CF0FF63;
+}

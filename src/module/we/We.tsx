@@ -5,7 +5,7 @@ export default function We({}: Props) {
     const items = [
         {
             id: 1,
-            title: 'База знаний BI-аналитика ',
+            title: 'БАЗА ЗНАНИЙ BI-АНАЛИТИКА ',
             discription: 'Обеспечивает доступ к базе знаний по оптимизации процессов. Предлагает инструменты для бизнес-интеллектуальной аналитики.',
             src: '/public/image/11.png'
         },
@@ -24,7 +24,7 @@ export default function We({}: Props) {
     ]
 
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10' id="why">
         <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>ПОЧЕМУ МЫ?</h1>
         <div className="mt-10">
             <div className="w-full flex justify-between flex-wrap">

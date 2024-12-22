@@ -29,7 +29,7 @@ export default function About({}: Props) {
         },
     ]
   return (
-    <div className='w-full mt-10'>
+    <div className='w-full mt-10' id='about'>
         <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>О НАС</h1>
         <div className="flex justify-between mt-10">
             <h1 className='font-normal text-[40px] text-[#1E4DC2] text-center'>Наш сервис</h1>
