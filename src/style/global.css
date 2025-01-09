@@ -12,4 +12,29 @@
     height: 112px;
     border-radius: 50%;
     background-color: #7CF0FF63;
+    z-index: -1
+}
+
+.krug:after {
+    top: -2px;
+    right: 183px;
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #7CF0FF63;
+    z-index: -1
+}
+
+.krug2:after {
+    top: -2px;
+    right: 170px;
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #7CF0FF63;
+    z-index: -1;
 }

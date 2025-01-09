@@ -35,28 +35,28 @@ export default function Form({ }: Props) {
 
   return (
     <div className='w-full mt-10' id="contact">
-      <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>ПРЕИМУЩЕСТВА</h1>
-      <div className="mt-10 h-[566px]" style={{ backgroundImage: 'url("/image/14.png")' }}>
+      <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>СВЯЖИТЕСЬ С НАМИ</h1>
+      <div className="mt-20 h-[566px] rounded-[40px] " style={{ backgroundImage: 'url("/image/14.png")' }}>
         <div className="w-full flex justify-end flex-wrap">
           <form onSubmit={handleSubmit} className="w-[789px] h-[637px] px-[20px] bg-blue-200 mt-[-40px] rounded-[20px] flex flex-col justify-center gap-6 opacity-90">
             <input
               type="text"
               className='w-full h-[68px] rounded-[40px] py-[21px] px-[36px]'
-              placeholder='Фио'
+              placeholder='Введите ваше ФИО'
               value={fullName}
               onChange={(e) => setFullName(e.target.value)}
             />
             <input
               type="text"
               className='w-full h-[68px] rounded-[40px] py-[21px] px-[36px]'
-              placeholder='Название компании'
+              placeholder='Введите название компании'
               value={organization}
               onChange={(e) => setOrganization(e.target.value)}
             />
             <input
-              type="email"
+              type="Введите email"
               className='w-full h-[68px] rounded-[40px] py-[21px] px-[36px]'
-              placeholder='Email'
+              placeholder='Введите Email'
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -70,14 +70,14 @@ export default function Form({ }: Props) {
             <input
               type="text"
               className='w-full h-[68px] rounded-[40px] py-[21px] px-[36px]'
-              placeholder='Номер телефона'
+              placeholder='Введите номер телефона'
               value={phoneNumber}
               onChange={(e) => setPhoneNumber(e.target.value)}
             />
             <input
               type="text"
               className='w-full h-[68px] rounded-[40px] py-[21px] px-[36px]'
-              placeholder='Вопрос'
+              placeholder='Введите вопрос'
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />

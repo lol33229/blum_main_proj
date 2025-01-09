@@ -32,13 +32,13 @@ export default function About({}: Props) {
     <div className='w-full mt-10' id='about'>
         <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>О НАС</h1>
         <div className="flex justify-between mt-10">
-            <h1 className='font-normal text-[40px] text-[#1E4DC2] text-center'>Наш сервис</h1>
+            <h1  className='font-normal text-[40px] text-[#1E4DC2] text-center krug relative'>Наш сервис</h1>
             <div className="w-full bg-[#A4F4FE75] rounded-[30px] p-4 max-w-[914px] h-[530px]">
                 <p className='font-normal text-[32px] text-[#1E4DC2]'>"Открытые Идеи" - это инновационная платформа для сбора и оценки предложений сотрудников по улучшению процессов в компании.Наша команда работает над проектом уже более ** лет, постоянно совершенствуясь и развиваясь вместе с клиентами.На данный момент команда Открытых Идей состоит из *** специалистов в области технологических инноваций. Мы продолжаем расширять нашу команду и улучшать функционал платформы для лучшего удовлетворения потребностей наших клиентов</p>
             </div>
         </div>
         <div className="flex justify-between mt-10">
-            <h1 className='font-normal text-[40px] text-[#1E4DC2] text-center'>Его работа</h1>
+            <h1 className='font-normal text-[40px] text-[#1E4DC2] text-center krug2 relative'>Его работа</h1>
             <div className="w-full p-4 max-w-[900px]">
                 {items.map((item) => {
                     return (
