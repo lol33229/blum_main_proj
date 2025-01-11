@@ -7,15 +7,18 @@ export default {
     "./src/module/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {},
-    screens: {
-      '2xl': {'max': '1535px'},
-      'xl': {'max': '1279px'},
-      'lg': {'max': '1023px'},
-      'md': {'max': '767px'},
-      'sm': {'max': '639px'},
-    }
+    theme: {
+      extend: {
+        screens: {
+          sm: '640px', // оставляем без изменений
+          md: '800px', // переопределяем md на 800px
+          lg: '1024px',
+          xl: '1280px',
+          '2xl': '1536px',
+          // Добавить свой breakpoint
+          xxl: '1800px', // например, для сверхшироких экранов
+    },
   },
+},
   plugins: [],
 }
