@@ -7,25 +7,25 @@ export default function About({}: Props) {
             id: 1,
             title: 'ОТКРЫТОЕ ПРОСТРАНСТВО',
             discription: 'Сотрудники могут свободно предлагать свои идеи по улучшению рабочих процессов.',
-            src: '/image/2.png'
+            src: '/public/image/2.png'
         },
         {
             id: 2,
             title: 'ТЕЛЕГРАМ-БОТ',
             discription: 'Автоматизированный ассистент помогает быстро вводить и отслеживать предложения.',
-            src: '/image/3.png'
+            src: '/public/image/3.png'
         },
         {
             id: 3,
             title: 'АНАЛИТИКА ДЛЯ АДМИНОВ',
             discription: 'Инструменты для анализа популярности идей и оценки их потенциала.',
-            src: '/image/4.png'
+            src: '/public/image/4.png'
         },
         {
             id: 4,
             title: 'РЕЙТИНГОВАЯ СИСТЕМА',
             discription: 'Система рейтинга позволяет оценивать и сортировать предложения по важности.',
-            src: '/image/5.png'
+            src: '/public/image/5.png'
         },
     ]
   return (

@@ -7,25 +7,25 @@ export default function Advantage({}: Props) {
             id: 1,
             title: 'НЕПРЕРЫВНОЕ РАЗВИТИЕ',
             discription: 'Обеспечивает постоянный поток новых идей и предложений.',
-            src: '/image/7.png'
+            src: '/public/image/7.png'
         },
         {
             id: 2,
             title: 'ГИБКАЯ МОБИЛЬНОСТЬ',
             discription: 'Позволяет компаниям адаптироваться к изменениям рынка и потребностей клиентов.',
-            src: '/image/8.png'
+            src: '/public/image/8.png'
         },
         {
             id: 3,
             title: 'ПОВЫШЕНИЕ МОТИВАЦИИ',
             discription: 'Платформа позволяет каждому сотруднику видеть результаты своих предложений.',
-            src: '/image/9.png'
+            src: '/public/image/9.png'
         },
         {
             id: 4,
             title: 'ОПТИМИЗАЦИЯ  ПРОЦЕССОВ',
             discription: 'Помогает выявлять и устранять проблемы на ранних стадиях.',
-            src: '/image/10.png'
+            src: '/public/image/10.png'
         },
     ]
 
