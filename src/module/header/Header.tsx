@@ -42,8 +42,8 @@ export default function Header({ }: Props) {
       {isMenuOpen && (
         <nav className="md:hidden flex flex-col p-4 bg-white shadow-lg">
           <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#about">О нас</a>
-          <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#news">Новости</a>
-          <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#features">Преимущества</a>
+          <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#2">Новости</a>
+          <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#3">Преимущества</a>
           <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px] mb-2" href="#why">Почему мы</a>
           <a className="text-[#1E4DC2] font-normal text-[20px] leading-[24px]" href="#contact">Связь с нами</a>
         </nav>

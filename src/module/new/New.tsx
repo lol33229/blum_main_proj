@@ -30,7 +30,7 @@ export default function New({}: Props) {
     <div className='w-full mt-10' id="2">
         <h1 className='font-semibold text-[40px] text-[#1E4DC2] uppercase text-center'>Открывая горизонты: Новые разработки и успехи</h1>
         <div className="mt-10">
-            <div className="w-full flex justify-between flex-wrap">
+            <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
                 {items.map((item) => {
                     return (
                         <Item key={item.id} item={item} />
