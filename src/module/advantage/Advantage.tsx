@@ -33,11 +33,14 @@ export default function Advantage({}: Props) {
   ];
 
   return (
-    <div className="w-full mt-10" id="3">
-      <h1 className="font-semibold text-[40px] text-[#1E4DC2] uppercase text-center">
+    <div className="w-full mt-10 px-4 sm:px-6" id="3">
+      {/* Заголовок */}
+      <h1 className="font-semibold text-[24px] sm:text-[32px] md:text-[40px] text-[#1E4DC2] uppercase text-center">
         ПРЕИМУЩЕСТВА
       </h1>
-      <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
+
+      {/* Сетка элементов */}
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-6 lg:gap-10 justify-items-center">
         {items.map((item) => (
           <Item key={item.id} item={item} />
         ))}
